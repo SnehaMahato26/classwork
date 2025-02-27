@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://dlcdnrog.asus.com/rog/media/1729693571180.webp");
+}
+
+
+#parent{
+    width: 25%;
+    height: 450px;
+    border:1px solid rgb(202, 45, 45);
+    text-align: center;
+    margin: auto;
+    color: rgb(12, 129, 231);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input{
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#parent button{
+    padding:10px;
+    width: 50%;
+    border: none;
+    background-color: hwb(186 5% 5%);
+    margin-bottom: 30px;
+}
+
+#parent>form>button:hover{
+    background-color: rgb(27, 50, 66);
+    color: rgb(238, 238, 172);
+    cursor: pointer;
+}
+input:focus{
+    background-color: rgb(24, 221, 155);
+}
+
+table{
+    color:rgb(0, 0, 0);
+    width: 50%;
+
+}
+table, td{
+    border:1px solid rgb(68, 198, 157);
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:20px;
+}
